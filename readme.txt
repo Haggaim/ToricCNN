@@ -1,24 +1,24 @@
 Code for the paper:
---------------------
+------------------------------------------------------------
 Convolutional Neural Networks on Surfaces via Seamless Toric Covers
 Haggai Maron, Meirav Galun, Noam Aigerman, Miri Trope, Nadav Dym, Ersin Yumer, Vladimir G. Kim, Yaron Lipman 
 ACM SIGGRAPH 2017
  
 Note:
------
+------------------------------------------------------------
 The training code is heavily based on the code of the original FCN paper 
 (Fully Convolutional Models for Semantic Segmentation', Jonathan Long, Evan Shelhamer and Trevor Darrell, CVPR, 2015 ) 
 https://github.com/vlfeat/matconvnet-fcn 
  
 Prerequisites:
---------------
+------------------------------------------------------------
 1. Download Matconvnet from http://www.vlfeat.org/matconvnet/ and put it under the training directory,
 2. compile it.
 3. Download the fcn32 network http://www.vlfeat.org/matconvnet/models/pascal-fcn32s-dag.mat and put it under training/base_net
 4. This code was tested on matlab 2015a on linux only.
  
 How to use the code
--------------------
+------------------------------------------------------------
 The code is composed of three parts, each in a different directory. Before using it you should add all the files to the path. 
 each file mentioned below should be ran from it's respective "code" directory:
 1. data generation: the file make_data.m makes all the data necessary for training. 
@@ -34,11 +34,11 @@ This will generate aggregated results from multiple triplets.
  
  
 Disclaimer:
------------
+------------------------------------------------------------
 The code is provided as-is for academic use only and without any guarantees. Please contact the authors to report any bugs.
  
 Contact:
----------
+------------------------------------------------------------
 haggaimaron@gmail.com
  
  
