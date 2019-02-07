@@ -1,4 +1,4 @@
-# ToricCNN
+# Convolutional Neural Networks on Surfaces via Seamless Toric Covers
 Implementation of the SIGGRAPH 2017 paper "Convolutional Neural Networks on Surfaces via Seamless Toric Covers"
 Haggai Maron, Meirav Galun, Noam Aigerman, Miri Trope, Nadav Dym, Ersin Yumer, Vladimir G. Kim, Yaron Lipman 
 
