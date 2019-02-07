@@ -1,12 +1,15 @@
 # ToricCNN
 Implementation of the SIGGRAPH 2017 paper "Convolutional Neural Networks on Surfaces via Seamless Toric Covers"
-
-
-Code for the paper:
-------------------------------------------------------------
-Convolutional Neural Networks on Surfaces via Seamless Toric Covers
 Haggai Maron, Meirav Galun, Noam Aigerman, Miri Trope, Nadav Dym, Ersin Yumer, Vladimir G. Kim, Yaron Lipman 
-ACM SIGGRAPH 2017
+
+## Abstract
+The recent success of convolutional neural networks (CNNs) for image processing tasks is inspiring research efforts attempting to achieve similar success for geometric tasks. One of the main challenges in applying CNNs to surfaces is defining a natural convolution operator on surfaces.
+
+In this paper we present a method for applying deep learning to sphere-type shapes using a global seamless parameterization to a planar flat-torus, for which the convolution operator is well defined. As a result, the standard deep learning framework can be readily applied for learning semantic, high-level properties of the shape. An indication of our success in bridging the gap between images and surfaces is the fact that our algorithm succeeds in learning semantic information from an input of raw low-dimensional feature vectors.
+
+We demonstrate the usefulness of our approach by presenting two applications: human body segmentation, and automatic landmark detection on anatomical surfaces. We show that our algorithm compares favorably with competing geometric deep-learning algorithms for segmentation tasks, and is able to produce meaningful correspondences on anatomical surfaces where hand-crafted features are bound to fail.
+
+
  
 Note:
 ------------------------------------------------------------
