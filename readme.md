@@ -38,8 +38,11 @@ The labels files should have a single label per face in each line, and should ha
 3. Prediction: run the file generateSegmentationsPerTriplet.m to generate predictions on the files in train_processed. 
 After this predictions were calculated, go to the predictions/output/XXX directory in which the predictions were saved and run the file postprocessAggregateSegmentations.m 
 This will generate aggregated results from multiple triplets.
- 
- 
+
+Data 
+---------
+Data can be found [here](https://www.dropbox.com/sh/cnyccu3vtuhq1ii/AADgGIN6rKbvWzv0Sh-Kr417a?dl=0).
+
 Disclaimer:
 ------------------------------------------------------------
 The code is provided as-is for academic use only and without any guarantees. Please contact the authors to report any bugs.
