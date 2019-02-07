@@ -1,3 +1,7 @@
+# ToricCNN
+Implementation of the SIGGRAPH 2017 paper "Convolutional Neural Networks on Surfaces via Seamless Toric Covers"
+
+
 Code for the paper:
 ------------------------------------------------------------
 Convolutional Neural Networks on Surfaces via Seamless Toric Covers
